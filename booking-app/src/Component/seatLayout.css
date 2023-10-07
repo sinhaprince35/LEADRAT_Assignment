@@ -1,0 +1,19 @@
+p{
+    text-align: left;
+    margin-left: 10px;
+}
+img{
+    width: 20px;
+    margin-top: 18px;
+}
+.layout{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-left: 20px;
+}
+
+@media (min-width: 769px) {
+    .layout {
+        grid-template-columns: 20% 80%; 
+    }
+}
